@@ -245,6 +245,8 @@ class CrystalView extends Ui.WatchFace {
 				return "<";
 			// case :LIVE_HR_SPOT:
 			// 	return "=";
+			case :INDICATOR_TYPE_PHONE_DISCONNECTED:
+				return ">";
 		}
 	}
 
